@@ -39,15 +39,15 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-    // {
-    //   name: 'BrightHR_Task_on_Firefox',
-    //   use: { ...devices['Desktop Firefox'] },
-    // },
+    {
+      name: 'BrightHR_Task_on_Firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
 
-    // {
-    //   name: 'BrightHR_Task_on_Webkit',
-    //   use: { ...devices['Desktop Safari'] },
-    // },
+    {
+      name: 'BrightHR_Task_on_Webkit',
+      use: { ...devices['Desktop Safari'] },
+    },
 
     /* Test against mobile viewports. */
     // {
