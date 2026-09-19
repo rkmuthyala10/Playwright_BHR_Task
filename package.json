@@ -1,0 +1,19 @@
+{
+  "name": "playwright_bhr_rk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "BrightHRTask": "npx playwright test tests/employee-hub.spec.ts",
+    "BrightHRTask:headed": "npx playwright test tests/employee-hub.spec.ts --headed",
+    "BrightHRTask:debug": "npx playwright test tests/employee-hub.spec.ts --debug",
+    "BrightHRTask:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.1",
+    "dotenv": "^18.0.1"
+  }
+}
